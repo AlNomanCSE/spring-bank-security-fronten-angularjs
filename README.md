@@ -1,28 +1,25 @@
-# BankAppUi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Bank Application Frontend
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This repository contains the backend code for the Bank Backend Application, a secure and robust system built using Spring Boot and Spring Security. The frontend for this application is developed using Angular and can be found [here](https://github.com/AlNomanCSE/spring-bank-security.git).
 
-## Build
+## Description
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The Bank Backend Application provides authenticated access to various banking services and public information endpoints. This project demonstrates the implementation of role-based access control, secure authentication mechanisms, and RESTful API endpoints for banking operations.
 
-## Running unit tests
+## Key Features
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Secure Authentication:** Implements form-based and HTTP Basic authentication.
+- **Role-Based Access Control:** Protects endpoints for account details, cards, loans, and balance based on user roles.
+- **Public Endpoints:** Provides public access to notices and contact information.
+- **RESTful API:** Offers endpoints for various banking operations.
+- **Environment-Based Configuration in Backend:** Supports configuration through environment variables.
+- **Detailed Security Logging:** Configurable logging for security-related events.
 
-## Running end-to-end tests
+## Technologies Used
+- **Angular**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# spring-bank-security-fronten-angularjs
